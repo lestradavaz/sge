@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    width: calc(100vw / 3);
+  }
+  .navbar-nav {
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw / 3);
+  }
+  .nav-link-usuario {
+    width: calc(100vw / 3);
+  }
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link-usuario {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.nav-link-usuario:hover {
+  color: #fff;
+}
