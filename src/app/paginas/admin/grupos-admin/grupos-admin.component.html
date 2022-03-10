@@ -1,1 +1,17 @@
-<p>grupos-admin works!</p>
+<div class="container py-5">
+
+  <h3 class="titulo-pagina">Grupos</h3>
+
+  <div
+  class="card card-admin flex-row p-3 align-items-center justify-content-center position-relative mb-4"
+  *ngFor="let grupos of grupos"
+  >
+    <h5 class="m-0 card-h5">{{grupos.nombre}}</h5>
+    <div class="grupo-botones position-absolute p-3">
+      <button class="boton-admin boton-admin-editar"></button>
+      <button class="boton-admin boton-admin-eliminar"></button>
+    </div>
+  </div>
+
+</div>
+

@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+.titulo-pagina {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card-admin {
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.grupo-botones {
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: .75rem;
+}
+
+.boton-admin {
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 100%;
+}
+
+.boton-admin.boton-admin-editar {
+  background-color: #fad204;
+}
+
+.boton-admin.boton-admin-editar:hover {
+  background-color: #eec704;
+}
+
+.boton-admin.boton-admin-eliminar {
+  background-color: #fa0404;
+}
+
+.boton-admin.boton-admin-eliminar:hover {
+  background-color: #e60606;
+}
