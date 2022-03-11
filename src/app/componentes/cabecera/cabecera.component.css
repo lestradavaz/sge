@@ -24,3 +24,8 @@
 .nav-link-usuario:hover {
   color: #fff;
 }
+
+.dropdown-menu {
+  overflow: hidden;
+  border-radius: .75rem !important;
+}

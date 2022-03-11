@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CabeceraComponent } from '../componentes/cabecera/cabecera.component';
 import { AlumnosAdminComponent } from './admin/alumnos-admin/alumnos-admin.component';
 import { DocentesAdminComponent } from './admin/docentes-admin/docentes-admin.component';
+import { AgregandoAdminComponent } from './admin/agregando-admin/agregando-admin.component';
 
 
 const routes: Routes = [
@@ -30,6 +31,10 @@ const routes: Routes = [
         path: 'docentes',
         component: DocentesAdminComponent
       },
+      {
+        path: 'agregar',
+        component: AgregandoAdminComponent
+      },
     ]
   }
 ];
@@ -39,7 +44,8 @@ const routes: Routes = [
     GruposAdminComponent,
     CabeceraComponent,
     AlumnosAdminComponent,
-    DocentesAdminComponent
+    DocentesAdminComponent,
+    AgregandoAdminComponent
   ],
   imports: [
     RouterModule.forRoot(routes),

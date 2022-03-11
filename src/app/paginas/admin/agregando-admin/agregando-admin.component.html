@@ -1,0 +1,30 @@
+<div class="container py-5">
+  <h3 class="titulo-pagina">Agregando</h3>
+
+  <form>
+    <div class="mb-3">
+      <label for="tipoSelect" class="form-label">Tipo</label>
+      <select class="form-select" aria-label="Default select example" name="tipoSelect" id="tipoSelect">
+        <option selected disabled>Seleccionar tipo</option>
+        <option value="1">Alumno</option>
+        <option value="2">Docente</option>
+        <option value="3">Administrador</option>
+      </select>
+      <div id="tipoHelp" class="form-text">Elige que deseas agregar</div>
+    </div>
+    <div class="mb-3">
+      <label for="nombreInput" class="form-label">Nombre completo</label>
+      <input type="text" class="form-control" id="nombreInput" placeholder="Ingresar nombre completo">
+    </div>
+    <div class="mb-3">
+      <label for="tipoSelect2" class="form-label">Grupo</label>
+      <select class="form-select" aria-label="Default select example" name="tipoSelect2" id="tipoSelect2">
+        <option selected disabled>Seleccionar grupo</option>
+        <option value="1">Grupo A</option>
+        <option value="2">Grupo B</option>
+        <option value="3">Grupo C</option>
+      </select>
+    </div>
+    <button type="button" class="btn btn-primario mt-5" routerLink="/admin">Guardar</button>
+  </form>
+</div>

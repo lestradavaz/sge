@@ -1,1 +1,18 @@
-<p>alumnos-admin works!</p>
+<div class="container py-5">
+
+  <h3 class="titulo-pagina">Alumnos</h3>
+
+  <button class="btn btn-primario boton-agregar boton-agregar-largo p-3 mx-auto d-block mb-4" routerLink="/admin/agregar">Agregar</button>
+
+  <div
+  class="card card-admin card-admin-largo flex-row py-3 px-4 align-items-center justify-content-center position-relative mb-4"
+  *ngFor="let alumnos of alumnos"
+  >
+    <h5 class="m-0 card-h5 fw-bolder id py-3 px-4">{{alumnos.id}}</h5>
+    <h5 class="m-0 card-h5">{{alumnos.nombre}}</h5>
+    <div class="grupo-botones position-absolute py-3 px-4">
+      <button class="boton-admin boton-admin-eliminar"></button>
+    </div>
+  </div>
+
+</div>
