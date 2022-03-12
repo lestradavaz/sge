@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.btn,
+.card {
+  border-radius: 1rem !important;
+}
+
+.navbar-brand {
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+}
+
+.logo-detalle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: .5rem;
+}
+
+.btn-primario {
+  background-color: #0c7489 !important;
+  color: #fff !important;
+}
+
+.btn-primario:hover {
+  background-color: #0b697c !important;
+}
+
+.titulo-pagina {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card-admin {
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.grupo-botones {
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 0.75rem;
+}
+
+.boton-admin {
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 100%;
+}
+
+.boton-admin.boton-admin-editar {
+  background-color: #fad204;
+}
+
+.boton-admin.boton-admin-editar:hover {
+  background-color: #eec704;
+}
+
+.boton-admin.boton-admin-eliminar {
+  background-color: #fa0404;
+}
+
+.boton-admin.boton-admin-eliminar:hover {
+  background-color: #e60606;
+}
+
+.boton-agregar {
+  min-width: 0;
+  width: 768px;
+  max-width: 768px;
+}
+
+.boton-agregar-largo {
+  min-width: 0;
+  width: 1024px;
+  max-width: 1024px;
+}
+
+.card-admin-largo {
+  max-width: 1024px;
+}
+
+.id {
+  position: absolute;
+  left: 0;
+  gap: 0.75rem;
+  top: 0;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: inherit !important;
+}
